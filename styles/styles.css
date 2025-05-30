@@ -12,6 +12,9 @@ h3 {
   align-items: center;
 }
 
+.left-section.active {
+  right: 0
+}
 
 p , h4{
   margin: 0;
@@ -245,4 +248,12 @@ p , h4{
   flex-direction: row; 
   gap: 50px;
   color: black;
+}
+
+#back-to-top {
+  background-color: #6a11cb;
+  font-weight: 900;
+  margin-top: 16px;
+  height: 30px;
+  width: 120px
 }

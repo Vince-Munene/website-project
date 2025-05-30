@@ -1,0 +1,24 @@
+.features-left-side {
+ display: flex; 
+ flex-direction: column;
+}
+
+.portion-1, .portion-2 {
+  display: flex; 
+  flex-direction: row;
+}
+
+.portion-1-left, .portion-2-left{
+  display: flex; 
+  flex-direction: column;
+}
+
+.portion-1-right, .portion-2-right {
+  display: flex; 
+  flex-direction: column;
+}
+
+.checkbox {
+  height: 63px;
+  width: 64px;
+}

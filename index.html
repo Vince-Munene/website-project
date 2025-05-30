@@ -3,61 +3,73 @@
   <head>
     <title> StudyGenie </title>
     <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/header.css">
+"
   </head>
   <body>
       <header>
+        <div class="header-container">
           <div class="left-section">
               <a href="Home">Home</a>
               <a href="features">Features</a>
               <a href="pricing">Pricing</a>
-              <a href="resources">Resources</a>
+              <a href="resources">Resources ></a>
           </div>
           <div class="right-section">
               <a href="#join">Join</a>
               <a href="#login">Login</a>
           </div>
-        </container>
+        </div>
       </header>
 
-    <div class="container">
+    <div class="container-top">
       <div class="left">
         <div class="section-one-left">
-          <h3>Explore Our Tools</h3>
+          <div style="display: flex" ><h3>Explore Our Tools</h3></div>
           <ul>
-            <h4>Study Plans</h4>
-            <p>Create your personalised study plan today!</p>
-            <h4>Quizzes</h4>
+            <div class="bulb-point"> <img class="bulb-bullet" src=assets/image-13.png>
+            <h4>Study Plans</h4> </div>
+            <p> Create your personalised study plan today!</p>
+            <div class="bulb-point"> <img class="bulb-bullet" src=assets/image-13.png>
+              <h4>Quizzes</h4> </div>
             <p>Generate quizzes from your notes effortlessly.</p>
-          <h4>Flashcards</h4>
+            <div class="bulb-point"> <img class="bulb-bullet" src=assets/image-13.png>
+              <h4>Flashcards</h4></div>
             <p>Revise with AI-generated flashcards anytime.</p>
-            <h4>Blog</h4>
+            <div class="bulb-point"> <img class="bulb-bullet" src=assets/image-13.png>
+            <h4>Blog</h4></div>
             <p>Read tips and tricks for effective studying.</p>
           </ul>
         </div>
         <div class="section-two-left">
           <h3>Latest Articles</h3>
           <ul>
-            <h4>Study Tips</h4>
-            <p>Maximize your study efficiency with these strategies.</p>
-            <h4>Tech Insights</h4>
+            <div class="bulb-point"> <img class="bulb-bullet" src=assets/image-13.png>
+            <h4>Study Tips</h4> </div>
+            <p> Maximize your study efficiency with these strategies.</p>
+            <div class="bulb-point"> <img class="bulb-bullet" src=assets/image-13.png>
+              <h4>Tech Insights</h4> </div>
             <p>Discover the latest in educational technology.</p>
-          <h4>User Stories</h4>
+            <div class="bulb-point"> <img class="bulb-bullet" src=assets/image-13.png>
+              <h4>User Stories</h4></div>
             <p>Hear about how others have succeeded with StudyGenie.</p>
-            <h4>About Us</h4>
+            <div class="bulb-point"> <img class="bulb-bullet" src=assets/image-13.png>
+            <h4>About Us</h4></div>
             <p>Learn more about our mission and vision.</p>
           </ul>
         </div>
       </div>
-      <div class="right box">
+      <div class="right-box">
           <h3>From Our Blog</h3>
-        
         <div class="blog-content">
-          <h4>Effective Learning</h4>
+          <div class="blog-point"> <img class="blog-image" src=assets/image-1.png>
+          <div><h4>Effective Learning</h4> 
           <p>Strategies to enhance your learning experience.</p>
-          <a href="#">Read more</a>
-          <h4>Study Techniques</h4>
+          <a href="#">Read more</a> </div> </div>
+          <div class="blog-point"> <img class="blog-image" src=assets/image-2.png>
+          <div><h4>Study Techniques</h4> 
           <p>Improve retention with these proven techniques.</p>
-          <a href="#">Read more</a>
+          <a href="#">Read more</a> </div> </div>
           </div>
         </div>
       </div>
@@ -66,194 +78,127 @@
       <section class="hero">
         <div class="hero-information">
           <h2>Your AI-Powered Study Assistant</h2>
-          <p>Transform your study habits with our AI-powered tool that tailors learning to your needs.
-              Experience personalised study plans, quizzes, and flashcards designed just for you.</p>
+          <h3>Transform your study habits with our AI-powered tool that tailors learning to your needs.
+              Experience personalised study plans, quizzes, and flashcards designed just for you.</h3>
         </div>
-        <div class="picture-column-one">
+        <div class="picture-row-one">
           <img src="assets/image-3.png" alt="man-studying">
           <img src="assets/image-4.png" alt="child-studying">
           <img src="assets/image-5.png" alt="man-smiling-studying">
         </div>
-        <div class="picture-column-two">
-
+        <div class="picture-row-two">
+          <img src="assets/image-6.png" alt="man-studying">
+          <img src="assets/image-7.png" alt="child-studying">
         </div>
           <div>
-          <button style= color:black href="#try-now">Try Now</button>
-          <button style= color:black href="#learn-more">Learn More</button>
+          <button class="bttn" href="#try-now">Try Now</button>
+          <button class="bttn" href="#learn-more">Learn More</button>
           </div>
       </section>
 
       <section class="below-hero">
-        <div class="below-hero-header">
+        <div class="discover-now-header">
       <h1 >Discover How StudyGenie Transforms Your Learning Experience Effortlessly</h1>
       </div>
       <div class="row">
         <div class="column">
           <div class="icon"></div>
-          <h2>Unlock Your Potential</h2>
-          <p>StudyGenie simplifies your study process by tailoring resources to your needs.</p>
-          <button class="btn">
+          <div class="column-header"> <span>Unlock Your Potential with Customised Study Plans and Tools </span> </div>
+          <div class="column-info"> <span>StudyGenie simplifies your study process by tailoring resources to your needs.</span> </div>
+          <div class="try-now-button"> <button class="bttn">
             Try
-          </button>
+          </button> </div>
         </div>
 
         <div class="column">
           <div class="icon"></div>
-          <h2>Generate Quizzes Fast</h2>
-          <p>Transform your notes into engaging quizzes and flashcards in seconds.</p>
-          <button class="btn">
+          <div class="column-header"> <span> Generate Quizzes Fast</span> </div>
+          <div class="column-info"> <span> Transform your notes into engaging quizzes and flashcards in seconds.</span> </div>
+          <div class="try-now-button"><button class="bttn">
             Explore
-          </button>
+          </button> </div>
         </div>
 
         <div class="column">
           <div class="icon"></div>
-          <h2>Smart Study Reminders</h2>
-          <p>Receive timely reminders that keep you on track for your study goals.</p>
-          <button class="btn">
+          <div class="column-header"> <span>Smart Study Reminders</span></div>
+          <div class="column-info"> <span>Receive timely reminders that keep you on track for your study goals.</span> </div>
+          <div class="try-now-button"> <button class="bttn">
             Sign Up
-          </button>
+          </button> </div>
         </div>
       </div>
     </section>
 
     <section class="features">
-          <div> <h2>Our Features</h2> </div>
+    <div style="display: flex;">
+      <div class="features-left-side">
+          <div class="features-header"> <h2>Our Features</h2> </div>
           <div>
-              <h2>Unlock Your Study Potential with Our Features</h2>
-              <p>Create personalized study plans tailored to your goals.</p>
-              <p>StudyGenie offers innovative tools designed to enhance your learning experience. 
-                From personalised study plans to interactive quizzes, we&#39;ve got you covered.</p>
-                <button>Learn More</button>
-                <a href="#try-now">Try Now</a>    
-          <div>
+              <div><h2>Unlock Your Study Potential with Our Features</h2></div>
+              <div> <span>StudyGenie offers innovative tools designed to enhance your learning experience.
+              From personalised study plans to interactive quizzes, we&#39;ve got you covered.</span> </div>
+              <div> <button class="bttn">Learn More</button> </div>
+              <div><a href="#try-now">Try Now > </a> </div>
+          </div>
+      </div>  
+          <div class="features-right-side">
             <div class="portion-1">
                 <div class="portion-1-left">
-                  <div>icon</div>
+                  <div> <img class="checkbox" src="assets/image-12.png"> </div>
                   <div> 
                     <h4> Revolutionise Your Study Sessions </h4>
                   </div>
                   <div>
-                    Our note parser transforms your notes into structured study materials.
+                    <span>Our note parser transforms your notes into structured study materials.</span>
                   </div>
                 </div>
               <div class="portion-1-right">
-                <div>icon</div>
+                <div> <img class="checkbox" src="assets/image-12.png"> </div>
                   <div> 
                     <h4> Engaging Quizzes Tailored to Your Needs. </h4>
                   </div>
                   <div>
-                    Generate quizzes that adapt to your learning style.
+                    <span>Generate quizzes that adapt to your learning style.</span>
                   </div>
                 </div>
             </div>
             <div class="portion-2">
               <div class="portion-2-left">
-                  <div>icon</div>
+                  <div> <img class="checkbox" src="assets/image-12.png"> </div>
                   <div> 
                     <h4> Stay on Track with Study Reminders. </h4>
                   </div>
                   <div>
-                    Receive timely reminders to keep your studies organised.
+                  <span> Receive timely reminders to keep your studies organised. </span>
                   </div>
                 </div>
-              <div class="portion-2-right">
-                <div>icon</div>
+              <div class="portion-2-right" style="display: flex; flex-direction: column;">
+                <div> <img class="checkbox" src="assets/image-12.png"> </div>
                   <div> 
                     <h4> Experience the Future of Learning. </h4>
                   </div>
                   <div>
-                    Join us and transform the way you study.
+                  <span>Join us and transform the way you study.</span>
                   </div>
                 </div>
             </div>
           </div>
-          </div>
-        </section>
-
-    <section class="organise">
-      <div> <h2>Organize</h2> </div> 
-        <div>
-            <div class="segment-1">
-              <div class="segment-1-one"> 
-                <div> 
-                  <h4> Transform Your Notes Into Study Power. </h4>
-                </div>
-                <div>
-                  <p>Our note parser feature intelligently scans and extracts key information from your notes.
-                    It transforms your content into structured study materials, making revision effortless and effective.</p>
-                  </div>
-              <div class="segemnt-1-two">
-                  <ul>
-                    <li><strong>Streamline your study process effortlessly.</strong></li>
-                    <li><strong>Maximize retention with personalized study tools.</strong></li>
-                    <li><strong>Kickstart your learning with a customized study plan.</strong></li>
-                  </ul>
-                </div>
-              <div class="segment-1-three">
-                <button> Try </button>
-                <a href="#Learn-More">Learn More</a>
-              </div>
-              </div>
-            </div>
-              <div class="segment-2">
-                <img src="assets/image-9.png" alt="notepad">
-              </div>
-        </div>
-    </section>   
-    
-    <section class="quizzes">
-      <div> <h2>Quizzes</h2> </div> 
-        <div>
-            <div class="partition-1">
-              <div class="partition-1-one"> 
-                <div> 
-                  <h4> Transform Your Study Experience with Quizzes </h4>
-                </div>
-                <div class="partition-1-two">
-                  <p>Our quiz generator creates tailored quizzes based on your notes, making revision efficient and engaging. 
-                    With just a few clicks, you can turn your study material into interactive challenges that reinforce your learning.</p>
-                </div>
-              </div>
-              <div class="partition-1-three">
-                <button> Try </button>
-                <a href="#Learn-More">Learn More </a>
-              </div>
-
-          <div class="partition-2">
-              <img src="assets/image-10.png">
-          </div>
-        </div>
       </div>
     </section>
 
-    <section class="reminders">
-      <div class="division-1">
-        <div class="division-1-one">
-            <h4>Stay on track with our intelligent study reminders feature.</h4>
-        </div>
-        <div class="division-1-two">
-          <p>Our study reminders keep you organised by notifying you when it's time to study. 
-            Never miss a session again, ensuring you stay focused and prepared for your exams.</p>
-        </div>
-      </div>
-        <div class="division-2">
-          <img src="assets/image-11.png">
-        </div>
-    </section>
-
-    <section id="success">
+    <section class="success">
           <div> <h2> Success </h2> </div>
-          <div class="fragment-1-one">
+          <div class="fragment-1-one" style="display: flex; flex-direction: column;">
               <h2>Transform Your Study Experience with AI</h2>
           <div><p>Join countless students who have enhanced their learning with StudyGenie. 
                 Our AI-driven platform personalises your study journey, making it efficient and effective.</p>
           </div>
-          <div class="fragment-1-two"><button>Try</button>
-            <a href="#">Demo</a></div>   
+          <div class="fragment-1-two"><button class="bttn">Try</button>
+            <a href="#">Demo ></a></div>   
           </div>
-            <div class="fragment-2">
-                <div class="fragment-2-one">
+            <div class="fragment-2" style="display: flex; flex-direction: row;">
+                <div class="fragment-2-one" >
                   <div class="85%">
                     <div>
                     <h4> 85% </h4>
@@ -293,7 +238,7 @@
 
     <section class="pricing">
       <div>
-         <div> <h3>Pricing Plans</h3> </div> 
+         <div> <h3> Pricing </h3> </div> 
           <div> <h2>Pricing Plans</h2> </div>
             <div> <p>Choose the plan that fits your study needs.</p> </div>
       </div>
@@ -301,6 +246,7 @@
           <div> Monthly </div>
           <div> Yearly </div>
         </div>
+        <div style="display: flex; flex-direction: row;">
         <div class="basic-plan">
         <div>
             <h3>Basic Plan</h3>
@@ -315,7 +261,7 @@
             </ul>
           </div>
           <div>
-            <button> Get Started </button>
+            <button class="bttn"> Get Started </button>
           </div>
           </div>
           <div class="business-plan">
@@ -333,7 +279,7 @@
             </ul>
           </div>
           <div>
-            <button> Get Started </button>
+            <button class="bttn"> Get Started </button>
           </div>
           </div>
           <div class="enterprise-plan">
@@ -353,28 +299,27 @@
             </ul>
           </div>
           <div>
-            <button> Get Started </button>
+            <button class="bttn"> Get Started </button>
           </div>
           </div>
       </section>
 
 <header class="header">
-  <div class="cta">
     <div class="container">
-      <div class="column heading">
+      <div class="column-heading">
         <h1>Join the StudyGenie Revolution</h1>
       </div>
-      <div class="column subheading">
-        <p>
+      <div class="column-subheading">
+        <span class="subheading-text">
           Unlock your full potential with StudyGenie. Sign up today to experience personalised study plans and innovative learning tools that make studying effortless.
-        </p>
+        </span>
         <div class="actions">
-          <button class="btn primary">Sign Up</button>
-          <button class="btn secondary">Learn More</button>
+          <button class="bttn">Sign Up</button>
+          <button class="bttn">Learn More</button>
         </div>
       </div>
     </div>
-  </div>
+  
 
   <footer class="footer">
     <div class="footer-content">
@@ -387,7 +332,7 @@
       </div>
 
       <div class="social-links">
-        <a href="#" class="icon facebook" img src="assets/Facebook-logo-circle-black-2.png">Facebook</a>
+        <a href="#" class="icon facebook">Facebook</a>
         <a href="#" class="icon instagram">Instagram</a>
         <a href="#" class="icon twitter">X</a>
         <a href="#" class="icon linkedin">LinkedIn</a>
@@ -398,9 +343,6 @@
     <div class="footer-bottom">
       <div class="legal">
         <span>© 2025 StudyGenie. All rights reserved.</span>
-        <a href="#">Privacy Policy</a>
-        <a href="#">Terms of Use</a>
-        <a href="#">Cookie Policy</a>
       </div>
     </div>
   </footer>

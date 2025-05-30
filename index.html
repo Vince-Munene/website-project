@@ -346,5 +346,13 @@
     </div>
   </footer>
 </header>
-</body>
+<button id="toTopBtn" class="to-top">Top</button>
+ <script>
+  const toTopBtn = document.getElementById("toTopBtn");
+
+  toTopBtn.addEventListener("click", () => {
+  window.scrollTo({ top: 0, behavior: "smooth" });
+});
+ </script>
+   </body>
   </html>
